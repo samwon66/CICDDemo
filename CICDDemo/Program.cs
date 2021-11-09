@@ -12,7 +12,7 @@ namespace CICDDemo
 
         private static void Hello()
         {
-            Console.WriteLine("Testing my first workflow"); ;
+            Console.WriteLine("Testing my first workflow\n Add new text in branch dev."); 
         }
     }
 }
