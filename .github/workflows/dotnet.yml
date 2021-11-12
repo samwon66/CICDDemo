@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: development
-      url: http://github.com/samwon66/CICDDemo/dev
+      url: http://github.com/samwon66/CICDDemo/tree/dev
     
     steps:
     - uses: actions/checkout@v2
