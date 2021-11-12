@@ -10,6 +10,9 @@ jobs:
   macUbuntu:
 
     runs-on: ubuntu-latest
+    environment:
+      name: development
+      url: http://github.com/samwon66/CICDDemo/dev
     
     steps:
     - uses: actions/checkout@v2
